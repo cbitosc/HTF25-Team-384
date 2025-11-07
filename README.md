@@ -1,68 +1,53 @@
 ﻿# HTF25-Team-384
+# Problem statement - 22
+# LIVE DEMO
+https://medihub-one.vercel.app/
 
-## GitHub submission guide
+# ⚕️ MediHub: Your Intelligent Health Companion
 
-In this Readme, you will find a guide on how to fork this Repository, add files to it, and make a pull request to contribute your changes.
+**MediHub** is a next-generation, AI-powered health platform designed to bridge the communication gap between patients and doctors. It provides a seamless, dual-interface web application that simplifies healthcare for patients and streamlines workflows for medical professionals, shifting the paradigm from reactive treatment to proactive health management.
 
-<details open>
-<summary><h3>1. Login to your GitHub Account</h3></summary>
-<br>
-<p>Go to <a href="https://github.com">github.com</a> to log in.</p>
-<ul>
-   <li>Open the <a href="https://github.com/cbitosc/HTF25-Team-384">current repo</a> in a new tab.</li>
-   <li>Perform all operations in the newly opened tab, and follow the current tab for instructions.</li>
-</ul>
-</details>
+---
 
-<details open>
-<summary><h3>2. Fork the Repository</h3></summary>
-<br>
-<p align="center">
-  <img src="fork.jpeg" alt="Fork the Repository" height="300">
-</p>
-<ul>
- <li>In the newly opened tab, on the top-right corner, click on <b>Fork</b>.</li>
- <li>Enter the <b>Repository Name</b> as <b>HTF25-Team-384</b>.</li>
- <li>Then click <b>Create Fork</b>, leaving all other fields as default.</li>
- <li>After a few moments, you can view your forked repo.</li>
-</ul>
-</details>
+## ✨ The Vision: Healthcare, Simplified
 
-<details open>
-<summary><h3>3. Clone your Repository</h3></summary>
-<br>
-<ul>
- <li>Click on <b>Code</b> and copy the <b>web URL</b> of your forked repository.</li>
- <li>Open terminal on your local machine.</li>
- <li>Run this command to clone the repo:</li>
-<pre><code>git clone https://github.com/your-username/HTF25-Team-384.git</code></pre>
-</ul>
-</details>
+In today's world, patients often struggle with complex medical jargon and feel disconnected from their care providers. Doctors, in turn, are overwhelmed by administrative tasks and a high volume of cases, making it difficult to prioritize who needs attention most.
 
-<details open>
-<summary><h3>4. Adding files to the Repository</h3></summary>
-<br>
-<ul>
- <li>While doing it for the first time, create a new branch for your changes:</li>
-<pre><code>git checkout -b branch-name</code></pre>
- <li>Add files or modify existing ones.</li>
- <li>Stage your changes:</li>
-<pre><code>git add .</code></pre>
- <li>Commit your changes:</li>
-<pre><code>git commit -m "Descriptive commit message"</code></pre>
- <li>Push your branch to your fork:</li>
-<pre><code>git push origin branch-name</code></pre>
-</ul>
-</details>
+**MediHub solves this.** We empower patients with clarity and control over their health journey, and we equip doctors with the intelligent tools needed to provide efficient, proactive, and data-driven care.
 
-<details open>
-<summary><h3>5. Create a Pull Request</h3></summary>
-<br>
-<ul>
- <li>Click on the <b>Contribute</b> button in your fork and choose <b>Open Pull Request</b>.</li>
- <li>Leave all fields as default, then click <b>Create Pull Request</b>.</li>
- <li>Wait a few moments; your PR is now submitted.</li>
-</ul>
-</details>
+---
 
-## Thanks for participating!
+## 🚀 Core Features
+
+MediHub is divided into two distinct, yet deeply integrated, experiences:
+
+### For Patients: Your Personal Health Guide
+*   **🤖 AI Health Assistant:** Describe your symptoms in natural language and get an instant, AI-driven analysis and a safe recommendation.
+*   **📄 Smart Prescription Reader:** Upload a photo of a prescription, and the AI extracts medication names, dosages, and generates simple, easy-to-understand instructions.
+*   **📊 Explain My Report:** Translate complex lab report data into a clear summary with a breakdown of each parameter.
+*   **🗣️ ELI5 (Explain Like I'm 5) Mode:** Simplify any medical instruction into basic language, complete with visual icons and audio playback.
+*   **🎤 Vitals Logging with Voice:** Easily log key metrics like blood sugar, blood pressure, and pain levels either manually or by speaking.
+*   **🚨 Proactive Health Nudges:** The system monitors vital trends and sends a **Health Alert** if it detects a risky pattern.
+*   **📞 Teleconsultation & SOS:** Connect with your doctor via video or use the one-click SOS button to notify emergency contacts.
+
+### For Doctors: A Population Health Command Center
+*   **🧠 Smart Patient Prioritization Queue:** The dashboard automatically ranks patients by AI-analyzed risk level (Critical, High, Medium, Low), enabling doctors to focus on the most urgent cases first.
+*   **📈 Community Health Dashboard:** View anonymized, aggregated data to identify local health trends and detect potential outbreaks early.
+*   **✅ Prescription Approval Queue:** A simple interface to review and approve patient medication requests.
+*   ** pharmacy One-Click Pharmacy Connect:** Send approved prescriptions directly to the patient's chosen pharmacy.
+*   **🤝 Caregiver Engagement Panel:** Securely message a patient's designated family member to improve treatment adherence and support.
+
+---
+
+## 🛠️ Technology Stack
+
+This project is built on a modern, robust, and scalable technology stack:
+
+*   **Framework:** **Next.js** (with App Router)
+*   **UI Library:** **React**
+*   **Styling:** **Tailwind CSS** with **ShadCN UI** for a modern, accessible component library.
+*   **AI Orchestration:** **Genkit** by Firebase, for creating structured AI flows.
+*   **AI Model:** **Google's Gemini** for all generative AI features.
+*   **Deployment:** Optimized for **Vercel**.
+
+---
